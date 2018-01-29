@@ -25,6 +25,8 @@ body{
 	margin: 5% auto;
 }
 
+/*Player Buttons Start*/
+
 .player{
 	display: flex;
 	justify-content: center;
@@ -58,7 +60,10 @@ body{
 	transition: all 0.2s ease-in;
 	cursor: pointer;
 }
+/*Player Buttons End*/
 
+
+/*Player Bar Start*/
 
 .player-bar-content{
 	display: flex;
@@ -73,7 +78,7 @@ body{
 
 .bar{
 	height: 5px;
-	width: 150px;
+	width: 100%;
 	flex-grow: 1; 
 	border-radius: 5px;
 	background-color: #E5E5E5;
@@ -81,7 +86,7 @@ body{
 
 .bar-state{
 	height: 5px;
-	width: 50px;
+	width: 50%;
 	border-radius: 5px; 
 	background-color: #D34954;
 }
@@ -89,4 +94,22 @@ body{
 .end-time{
 	margin-left: 10px;
 	flex-shrink: 0;
+}
+/*Player Bar End*/
+
+
+/*Footer*/
+
+.github{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+	color: gray;
+}
+
+.github a:hover{
+	color: #b0bec5;
+	cursor: pointer;
+	transition: all 0.2s ease-in;
 }
